@@ -1,0 +1,293 @@
+[gd_scene format=3 uid="uid://4pqund3nukl7"]
+
+[ext_resource type="Script" uid="uid://dgemna2cprj7k" path="res://player.gd" id="1_epypp"]
+[ext_resource type="Texture2D" uid="uid://hj6o61wnvlkw" path="res://U1ntitled-1.png" id="2_hqns4"]
+[ext_resource type="Texture2D" uid="uid://c5yq23bjh8jgw" path="res://rana boy.png.png" id="2_ir8iy"]
+[ext_resource type="Texture2D" uid="uid://c1ive4vcq45ot" path="res://New Piskel-1.png.png" id="3_0hol4"]
+[ext_resource type="Texture2D" uid="uid://dqlj72tdhew8b" path="res://Untitled-1.png" id="3_epypp"]
+[ext_resource type="Texture2D" uid="uid://du7i04bhtjrs5" path="res://rana.boy2.png.png" id="3_hqns4"]
+[ext_resource type="Texture2D" uid="uid://lensrrvyxofn" path="res://1231212123132.png" id="3_x0ka3"]
+[ext_resource type="Texture2D" uid="uid://b7syydsvsa87m" path="res://KitKat game.png.png" id="4_0hol4"]
+[ext_resource type="Texture2D" uid="uid://kpmex4syukvq" path="res://ranaboy3.png" id="4_x0ka3"]
+[ext_resource type="Texture2D" uid="uid://u0v4uymffbjy" path="res://ranaboy4.png" id="5_0h7mo"]
+[ext_resource type="Texture2D" uid="uid://ccgc3sej2t8q2" path="res://New Piskel-1.png (1).png" id="5_q6r6c"]
+[ext_resource type="Texture2D" uid="uid://bbnhe0raah50b" path="res://New Piskel-1.png (2).png" id="6_kdubu"]
+[ext_resource type="Texture2D" uid="uid://bt80v4kwqb6ak" path="res://New Piskel-1.png (3).png" id="13_0h7mo"]
+[ext_resource type="Texture2D" path="res://golden_candy.png" id="14_golden"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_h4stk"]
+radius = 29.0
+height = 78.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_df41d"]
+size = Vector2(57.000008, 27)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_body"]
+size = Vector2(30.0, 24.0)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_grass0"]
+size = Vector2(2352.0, 770.0)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_grass1"]
+size = Vector2(697.0, 325.0)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_grass2"]
+size = Vector2(219.0, 325.0)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_grass3"]
+size = Vector2(310.0, 325.0)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_grass4"]
+size = Vector2(191.0, 325.0)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_grass5"]
+size = Vector2(687.0, 325.0)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_house0"]
+size = Vector2(134.0, 139.0)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_house1"]
+size = Vector2(172.0, 143.9)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_house2"]
+size = Vector2(193.8, 136.3)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_house3"]
+size = Vector2(181.5, 156.5)
+
+[node name="Node2D" type="Node2D" unique_id=154921506]
+
+[node name="Background" type="Area2D" parent="." unique_id=1752870696]
+
+[node name="Untitled1" type="Sprite2D" parent="Background" unique_id=232498062]
+position = Vector2(561.99994, 291)
+scale = Vector2(0.63958335, 0.68703705)
+texture = ExtResource("3_epypp")
+
+[node name="Sprite2D" type="Sprite2D" parent="Background" unique_id=1930386571]
+position = Vector2(129, 335)
+scale = Vector2(0.055555563, 0.5123457)
+texture = ExtResource("2_hqns4")
+
+[node name="Sprite2D" type="Sprite2D" parent="Background/Sprite2D" unique_id=1305561840]
+position = Vector2(5075.9995, -3.6507845e-07)
+scale = Vector2(0.98133653, 1.0061729)
+texture = ExtResource("2_hqns4")
+
+[node name="Sprite2D" type="Sprite2D" parent="Background/Sprite2D/Sprite2D" unique_id=677232136]
+position = Vector2(6823.3457, -5.819499)
+scale = Vector2(0.98133653, 1.0061729)
+texture = ExtResource("2_hqns4")
+
+[node name="Sprite2D" type="Sprite2D" parent="Background/Sprite2D/Sprite2D/Sprite2D" unique_id=185781132]
+position = Vector2(4710.176, 9.536743e-06)
+scale = Vector2(0.98133653, 1.0061729)
+texture = ExtResource("2_hqns4")
+
+[node name="Sprite2D" type="Sprite2D" parent="Background/Sprite2D/Sprite2D/Sprite2D/Sprite2D" unique_id=3139558]
+position = Vector2(-9104.242, 485.3115)
+rotation = 1.5707964
+scale = Vector2(0.30169028, 36.84197)
+texture = ExtResource("2_hqns4")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Background" unique_id=1479107100]
+position = Vector2(149, 577.00006)
+scale = Vector2(0.10373266, 0.021604918)
+texture = ExtResource("3_x0ka3")
+
+[node name="Sprite2D3" type="Sprite2D" parent="Background" unique_id=1801865437]
+position = Vector2(383.805, 577)
+scale = Vector2(0.10373266, 0.021604918)
+texture = ExtResource("3_x0ka3")
+
+[node name="Sprite2D4" type="Sprite2D" parent="Background" unique_id=1028207833]
+position = Vector2(618.275, 577)
+scale = Vector2(0.10373266, 0.021604918)
+texture = ExtResource("3_x0ka3")
+
+[node name="Sprite2D5" type="Sprite2D" parent="Background" unique_id=1792625920]
+position = Vector2(850.645, 577)
+scale = Vector2(0.10373266, 0.021604918)
+texture = ExtResource("3_x0ka3")
+
+[node name="Sprite2D6" type="Sprite2D" parent="Background" unique_id=236786537]
+position = Vector2(1090.79, 577)
+scale = Vector2(0.10373266, 0.021604918)
+texture = ExtResource("3_x0ka3")
+
+[node name="House 1" type="Area2D" parent="." unique_id=1649574475]
+
+[node name="Sprite2D" type="Sprite2D" parent="House 1" unique_id=1983188571]
+position = Vector2(209, 189)
+texture = ExtResource("2_ir8iy")
+
+[node name="House 2" type="Area2D" parent="." unique_id=200731027]
+
+[node name="Sprite2D" type="Sprite2D" parent="House 2" unique_id=439523418]
+position = Vector2(339, 195)
+scale = Vector2(1.0818182, 1.0350649)
+texture = ExtResource("3_hqns4")
+
+[node name="House 3" type="Area2D" parent="." unique_id=1119802924]
+
+[node name="Sprite2D" type="Sprite2D" parent="House 3" unique_id=1689546636]
+position = Vector2(873.875, 11.125013)
+scale = Vector2(1.2266234, 1.1175325)
+texture = ExtResource("4_x0ka3")
+
+[node name="House 4" type="Area2D" parent="." unique_id=1897540970]
+
+[node name="Sprite2D" type="Sprite2D" parent="House 4" unique_id=554130779]
+position = Vector2(916, 15)
+scale = Vector2(1.2266234, 1.1175325)
+texture = ExtResource("5_0h7mo")
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=814856747]
+position = Vector2(576, 570)
+script = ExtResource("1_epypp")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="Player" unique_id=1803842103]
+
+[node name="Sprite2D" type="Sprite2D" parent="Player/CharacterBody2D" unique_id=825619959]
+scale = Vector2(3, 3)
+texture = ExtResource("3_0hol4")
+
+[node name="PickupArea" type="Area2D" parent="Player" unique_id=1909265626]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/PickupArea" unique_id=1307222363]
+position = Vector2(2, 11)
+shape = SubResource("CapsuleShape2D_h4stk")
+
+[node name="BodyCollision" type="CollisionShape2D" parent="Player"]
+position = Vector2(0, 34)
+shape = SubResource("RectangleShape2D_body")
+
+[node name="HoldingKitKat" type="Sprite2D" parent="Player" unique_id=1111270856]
+visible = false
+position = Vector2(20.36579, 26.120619)
+rotation = 1.4835298
+scale = Vector2(0.34554213, 0.251908)
+texture = ExtResource("4_0hol4")
+
+[node name="HoldingTwix" type="Sprite2D" parent="Player" unique_id=1352913405]
+visible = false
+position = Vector2(18.000004, 27.000002)
+rotation = 1.134464
+scale = Vector2(0.34554213, 0.251908)
+texture = ExtResource("5_q6r6c")
+
+[node name="HoldingHerbro" type="Sprite2D" parent="Player" unique_id=374144072]
+visible = false
+position = Vector2(27, 28)
+rotation = 1.8325957
+scale = Vector2(0.22081804, 0.16035214)
+texture = ExtResource("6_kdubu")
+
+[node name="HoldingGolden" type="Sprite2D" parent="Player"]
+visible = false
+position = Vector2(24, 20)
+scale = Vector2(0.55, 0.55)
+texture = ExtResource("14_golden")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Player" unique_id=1752926056]
+
+[node name="CandyCountDisplay" type="Label" parent="Player/CanvasLayer" unique_id=1155151122]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Candy 0"
+
+[node name="Twix" type="Area2D" parent="." unique_id=1452792111 groups=["Twix"]]
+position = Vector2(420, 180)
+
+[node name="Sprite2D" type="Sprite2D" parent="Twix" unique_id=1844947736]
+scale = Vector2(2, 2)
+texture = ExtResource("5_q6r6c")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Twix" unique_id=1204944296]
+position = Vector2(-0.75, -5.5)
+shape = SubResource("RectangleShape2D_df41d")
+
+[node name="Herbro" type="Area2D" parent="." unique_id=1785181176 groups=["Herbro"]]
+position = Vector2(780, 170)
+
+[node name="Sprite2D" type="Sprite2D" parent="Herbro" unique_id=1685880380]
+scale = Vector2(2, 2)
+texture = ExtResource("6_kdubu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Herbro" unique_id=1302729338]
+position = Vector2(1, 6)
+shape = SubResource("RectangleShape2D_df41d")
+
+[node name="KitKat" type="Area2D" parent="." unique_id=872835562 groups=["KitKat"]]
+position = Vector2(130, 170)
+
+[node name="Sprite2D" type="Sprite2D" parent="KitKat" unique_id=577366328]
+scale = Vector2(2, 2)
+texture = ExtResource("4_0hol4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KitKat" unique_id=2062823627]
+position = Vector2(2, -5.5)
+shape = SubResource("RectangleShape2D_df41d")
+
+[node name="MONSTERRRR" type="Area2D" parent="." unique_id=1984860548 groups=["Monster"]]
+position = Vector2(1032.33, 186.165)
+
+[node name="Sprite2D" type="Sprite2D" parent="MONSTERRRR" unique_id=2069541255]
+scale = Vector2(2, 2)
+texture = ExtResource("13_0h7mo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MONSTERRRR" unique_id=1953253765]
+position = Vector2(3.2400055, 3.25)
+shape = SubResource("RectangleShape2D_df41d")
+
+[node name="GrassWalls" type="StaticBody2D" parent="."]
+
+[node name="Grass1" type="CollisionShape2D" parent="GrassWalls"]
+position = Vector2(576.0, -215.0)
+shape = SubResource("RectangleShape2D_grass0")
+
+[node name="Grass2" type="CollisionShape2D" parent="GrassWalls"]
+position = Vector2(-251.5, 332.5)
+shape = SubResource("RectangleShape2D_grass1")
+
+[node name="Grass3" type="CollisionShape2D" parent="GrassWalls"]
+position = Vector2(270.5, 332.5)
+shape = SubResource("RectangleShape2D_grass2")
+
+[node name="Grass4" type="CollisionShape2D" parent="GrassWalls"]
+position = Vector2(597.0, 332.5)
+shape = SubResource("RectangleShape2D_grass3")
+
+[node name="Grass5" type="CollisionShape2D" parent="GrassWalls"]
+position = Vector2(909.5, 332.5)
+shape = SubResource("RectangleShape2D_grass4")
+
+[node name="Grass6" type="CollisionShape2D" parent="GrassWalls"]
+position = Vector2(1408.5, 332.5)
+shape = SubResource("RectangleShape2D_grass5")
+
+[node name="Solid" type="StaticBody2D" parent="House 1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="House 1/Solid"]
+position = Vector2(124.5, 100.0)
+shape = SubResource("RectangleShape2D_house0")
+
+[node name="Solid" type="StaticBody2D" parent="House 2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="House 2/Solid"]
+position = Vector2(431.0, 102.9)
+shape = SubResource("RectangleShape2D_house1")
+
+[node name="Solid" type="StaticBody2D" parent="House 3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="House 3/Solid"]
+position = Vector2(770.2, 105.6)
+shape = SubResource("RectangleShape2D_house2")
+
+[node name="Solid" type="StaticBody2D" parent="House 4"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="House 4/Solid"]
+position = Vector2(1028.2, 99.4)
+shape = SubResource("RectangleShape2D_house3")
+
+[connection signal="area_entered" from="Player/PickupArea" to="Player" method="_on_pickup_area_area_entered"]

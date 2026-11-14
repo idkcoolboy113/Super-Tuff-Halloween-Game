@@ -1,0 +1,16 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://candy_shot.gd" id="1_shot"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_shot"]
+size = Vector2(50, 24)
+
+[node name="CandyShot" type="Area2D"]
+script = ExtResource("1_shot")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+scale = Vector2(2, 2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_shot")
